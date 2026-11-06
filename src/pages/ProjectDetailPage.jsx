@@ -1,7 +1,17 @@
-import { Link, useRouteLoaderData, redirect } from 'react-router-dom';
+import { useRouteLoaderData } from 'react-router-dom';
 
 function ProjectDetailPage() {
-    return (true);
+    const project = useRouteLoaderData('project-detail');
+
+    return (
+        <section>
+            <article>
+                <h1>{project.title}</h1>
+                <h2>Description</h2>
+                <p>{project.description}</p>
+            </article>
+        </section>
+    ); 
 }
 
 export default ProjectDetailPage;

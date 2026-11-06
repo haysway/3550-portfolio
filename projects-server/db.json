@@ -1,5 +1,21 @@
 {
-  "projects": [],
+  "projects": [
+    {
+        "id": "p1",
+        "title": "Dynamic Codespaces",
+        "description": "A partner and I developed a containerized cloud IDE platform that dynamically provisioned isolated Theia development environemnts. I configured Nginx as a reverse proxy to route users to unique URLs for their active development environments. We implemented automated container lifecycle management with inactivity detection and self-termination to reclain server resources."
+    },
+    {
+        "id": "p2",
+        "title": "Personal Portfolio (reccursion)",
+        "description": "I developed a personal developer portfolio website using React with Vite. It is a single page application that seamlessly navigatese across multiple views, displays local image assets, presents dynamic project data fetched from an external source, and captures visitor messages."
+    },
+    {
+        "id": "p3",
+        "title": "Some other project",
+        "description": "TODO: add another project here"
+    }
+  ],
   "contacts": [
 
   ],

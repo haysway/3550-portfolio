@@ -10,7 +10,6 @@ function GalleryPage() {
                 {projects.map((project) => (
                     <li key={project.id}>
                         <Link to={project.id}>
-                            <img src={project.image} alt={project.title} style={{ maxWidth: '200px' }} />
                             <h2>{project.title}</h2>
                         </Link>
                     </li>
