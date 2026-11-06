@@ -17,7 +17,7 @@ function ProjectDetailPage() {
 export default ProjectDetailPage;
 
 export async function projectDetailLoader( { request, params }) {
-    const id = params.propertyId;
+    const id = params.projectId;
     const response = await fetch('http://localhost:3000/projects/' + id);
 
     if (!response.ok) {
