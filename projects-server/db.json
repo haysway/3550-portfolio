@@ -12,8 +12,8 @@
     },
     {
         "id": "p3",
-        "title": "Some other project",
-        "description": "TODO: add another project here"
+        "title": "Inventory Tracker Capstone",
+        "description": "A capstone project focused on building an inventory tracking application. The app helps users organize inventory items and keep track of stock levels through a straightforward interface."
     }
   ],
   "contacts": [
